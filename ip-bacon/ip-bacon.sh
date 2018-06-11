@@ -1,3 +1,5 @@
+#!/bin/ash
+
 DO_API_TOKEN="abcde1234567890"
 DOMAIN="example.com"
 SUBDOMAIN="router"
