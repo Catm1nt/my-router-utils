@@ -4,9 +4,9 @@
 echo "Updating package list..."
 opkg update > /dev/null
 
-if [ `opkg list-upgradable | cut -d " " -f1 | wc -l` -gt 0 ]; then
+if [ `opkg list-upgradable | cut -d " " -f1 | grep -v "kmod-" | wc -l` -gt 0 ]; then
   echo "Available updates:"
-  opkg list-upgradable
+  opkg list-upgradable | grep -v "kmod-"
   echo ""
 
   valid=0
@@ -18,7 +18,7 @@ if [ `opkg list-upgradable | cut -d " " -f1 | wc -l` -gt 0 ]; then
         valid=1
         echo ""
         echo "Upgrading all packages..."
-        opkg list-upgradable | cut -d " " -f1 | xargs -r opkg upgrade
+        opkg list-upgradable | cut -d " " -f1 | grep -v "kmod-" | xargs -r opkg upgrade
         ;;
       n|N)
         valid=1
