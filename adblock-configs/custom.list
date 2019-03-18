@@ -1,14 +1,14 @@
-#Samsung phone
+#Samsung phone tracking
 vas.samsungapps.com
 app-measurement.com
 config-api.internet.apps.samsung.com
 
-#Facebook
+#Facebook APIs
 graph.accountkit.com
 api.facebook.com
 graph.facebook.com
 
-#LG TV Ads
+#LG TV Ads and Tracking
 lgad.cjpowercast.com.edgesuite.net
 lgtvonline.lge.com
 ngfts.lge.com
@@ -17,7 +17,7 @@ ad.lgsmartad.com
 snu.lge.com
 FI.lgtvsdp.com
 
-#Netflix
+#Netflix tracking
 customerevents.netflix.com
 customerevents.geo.netflix.com
 dockhand.netflix.com
