@@ -14,8 +14,8 @@ lgtvonline.lge.com
 ngfts.lge.com
 info.lgsmartad.com
 ad.lgsmartad.com
-snu.lge.com
-FI.lgtvsdp.com
+snu.lge.com #NB this blocks firmware updates
+FI.lgtvsdp.com #NB this is specific to Finland. Change "FI" to your country code
 
 #Netflix tracking
 customerevents.netflix.com
