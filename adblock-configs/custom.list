@@ -1,23 +1,23 @@
-#Samsung phone tracking
+#Samsung phone
 vas.samsungapps.com
 app-measurement.com
 config-api.internet.apps.samsung.com
 
-#Facebook APIs
+#Facebook
 graph.accountkit.com
 api.facebook.com
 graph.facebook.com
 
-#LG TV Ads and Tracking
+#LG TV Ads
 lgad.cjpowercast.com.edgesuite.net
 lgtvonline.lge.com
 ngfts.lge.com
 info.lgsmartad.com
 ad.lgsmartad.com
-snu.lge.com #NB this blocks firmware updates
-FI.lgtvsdp.com #NB this is specific to Finland. Change "FI" to your country code
+snu.lge.com
+FI.lgtvsdp.com
 
-#Netflix tracking
+#Netflix
 customerevents.netflix.com
 customerevents.geo.netflix.com
 dockhand.netflix.com
@@ -32,3 +32,17 @@ broker.adobe.com
 ox-d.adobe.com
 sstats.adobe.com
 stats.adobe.com
+
+#Oculus
+graph.oculus.com
+skybox.xyz
+mqtt-mini.facebook.com
+edge-mqtt.facebook.com
+scontent.oculuscdn.com
+
+#Unity tracking
+config.uca.cloud.unity3d.com
+prd-lender.cdp.internal.unity3d.com
+thind-prd-knob.data.ie.unity3d.com
+thind-gke-euw.prd.data.corp.unity3d.com
+remote-config-proxy-prd.uca.cloud.unity3d.com
