@@ -11,7 +11,7 @@ measure_resolve(){
   local all_resolve_times=0
   for i in 1 2 3 4 5 ; do
     local random_domain=$(shuf -n 1 top-20k.txt)
-    local resolve_time=$(dig -t A $random_domain @$IP | grep msec | cut -d' ' -f4)
+    local resolve_time=$(dig +time=1 -t A $random_domain @$IP | grep msec | cut -d' ' -f4)
     local all_resolve_times=$(($all_resolve_times + $resolve_time))
   done
   local average_resolve_time=$(echo "scale=3;$all_resolve_times / 5" | bc)
