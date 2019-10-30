@@ -16,6 +16,8 @@ info.lgsmartad.com
 ad.lgsmartad.com
 snu.lge.com #NB this blocks firmware updates
 FI.lgtvsdp.com #NB this is specific to Finland. Change "FI" to your country code
+rdvs.alljoyn.org
+us-ad-lgsmartad-com.aws-prd.net
 
 #Netflix tracking
 customerevents.netflix.com
